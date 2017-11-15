@@ -1,0 +1,2 @@
+Este texto se escribe en el archivo 
+ y esto lo escribe en otra linea

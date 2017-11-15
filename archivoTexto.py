@@ -1,0 +1,16 @@
+#GUARDAR EN ARCHIVO
+escritura=open("archivo.txt","w")
+escritura.write("Este texto se escribe en el archivo \n y esto lo escribe en otra linea")
+escritura.close()
+print("fichero creado y grabado el texto")
+#ABRIR ARCHIVO Y MOSTRAR DATOS
+lectura=open("archivo.txt","r")
+leer=lectura.read()
+print("leemos todo")
+print(leer)
+lectura.close()
+lectura=open("archivo.txt","r")
+leer=lectura.readline()
+print("leemos una linea")
+print(leer)
+lectura.close()
