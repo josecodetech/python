@@ -24,8 +24,9 @@ def dameResultado(seleccion):
             resultado=operador1/operador2
         except ZeroDivisionError: #podemos obviar la especificacion del error
             resultado=0
-        finally:    
-            return resultado
+        finally:
+            print("division realizada")
+    return resultado
 #PROGRAMA PRINCIPAL
 continua=True
 while(continua):
