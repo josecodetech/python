@@ -18,7 +18,6 @@ if(consulta.execute(sql,datos)):
     print("datos guardados")
 else:
     print("error al guardar datos")
-consulta.close()
 conexion.commit()
 conexion.close()
 #CONSULTA DE DATOS INSERTADOS
