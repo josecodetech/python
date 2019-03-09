@@ -1,0 +1,6 @@
+import argparse
+parser=argparse.ArgumentParser(description="Saludo")
+parser.add_argument('-t','--target',help="Nombre")
+
+nombre=parser.target
+print("Hola, {}".format(nombre)
