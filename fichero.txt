@@ -1,1 +1,1 @@
-primera escritura en fichero
+hola desde llamada funcion

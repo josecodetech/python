@@ -1,6 +1,4 @@
-from datetime import datetime
-hoy=datetime.now()
-print(hoy)
-#con formato
-hoy=hoy.strftime('%d%m%Y')
-print(hoy)
+import datetime
+d=datetime.datetime.now()
+print(d)
+print("{}:{}:{}".format(d.hour,d.minute,d.second))

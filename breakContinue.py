@@ -1,13 +1,12 @@
-#break y continue
-titulo='curso de python'
-#break finaliza el ciclo
-for caracter in titulo:
-	if caracter == 'p':
-		break
-	print(caracter)
-#continue salta a siguiente
-for caracter in titulo:
-	if caracter =='y':
+num=0
+while num<20:
+	print(num)
+	if num==5:
+		print('saltamos en ',num)
+		num=num+1
 		continue
-	print(caracter)
-print('fin')
+	if num==7:
+		print('rompemos en ',num)
+		break
+	num=num+1
+print('se quedo en ',num)

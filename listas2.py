@@ -1,22 +1,29 @@
 #listas
-lista=[1,4,2,5,7]
-print(lista)
-#otras operaciones
-#añade
-lista.append(5)
-print(lista)
-#elementos listas
-print(len(lista))
-#inserta en pos indicada
-lista.insert(2,12)
-print(lista)
-#devuelve el indice donde esta el 2
-print(lista.index(2))
-#max y min
-print(max(lista))
-print(min(lista))
-#orden
-lista.reverse()
-print(lista)
-lista.sort()
-print(lista)
+l1=[1,2,3,4]
+l2=[5,2,7,2,8]
+#Inserta elemento en (pos, val)
+l1.insert(1,10)
+print(l1)
+#Union listas
+l1.extend(l2)
+print(l1)
+#Veces q aparece
+print(l1.count(2))
+#Posic donde aparece 10
+print(l1.index(10))
+#Añade al final 21
+l1.append(21)
+print(l1)
+print(l2)
+#Borra lista2
+l2.clear()
+print(l2)
+#borra ultimo y el valor 5
+l1.pop()
+l1.remove(5)
+#Da la vuelta a lista
+l1.reverse()
+print(l1)
+#Ordena la lista
+l1.sort()
+print(l1)

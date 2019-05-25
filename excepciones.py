@@ -1,13 +1,12 @@
-#EXCEPCIONES
-numero1=int(input("Primer numero :"))
-numero2=int(input("Segundo numero :"))
-#CONTROL DE EXCEPCION
-try:
-    resultado=numero1/numero2
-    print("El resultado es = ",resultado)
-except ZeroDivisionError: #podemos obviar la especificacion del error
-    print("No se puede dividir por cero")
-finally:
-    #SE EJECUTA SIEMPRE
-    print("Esto se ejecuta pase lo que pase")
-    
+def divide(num1,num2):
+	try:
+		print('resultado')
+		print(num1/num2)
+	except ZeroDivisionError:
+		print('no se puede dividir por 0')
+	except Exception as e:
+		print('error : ')
+		print(type(e).__name__)
+divide(9,0)
+divide(6,'dfg#')
+divide(4,2)
