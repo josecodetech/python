@@ -1,0 +1,17 @@
+22/08/19
+
+
+Concepto		Tienda 01	Tienda 02				
+
+Efec Ingreso		147.0						
+
+Banco tarjetas		23.0		23.0				
+
+Total Ventas		147.0		46.0				
+
+
+
+	Base Imponible = 159.5	IVA = 33.5	TOTAL = 193.0
+
+	comis tarjetas = 0.34
+

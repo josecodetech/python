@@ -57,8 +57,29 @@ def insertaBaseTotales(di,me,an,efectivo,totalVenta,base,iva,tarjetas):
     cursor.execute(sql,parametros)
     con.commit()
     con.close()
-
+def ventaTotal(di1,me1,an1,di2,me2,an2):
+    fechaIni=str(di1)+"/"+str(me1)+"/"+str(an1)
+    fechaFin=str(di2)+"/"+str(me2)+"/"+str(an2)
+    sql="SELECT SUM(totalVenta) as VentaTotal FROM totales WHERE (FECHA>\""+fechaIni+"\") AND (FECHA<\""+fechaFin+"\")"
+    con=conecta()
+    cursor=con.cursor()
+    cursor.execute(sql)
+    for i in cursor:
+        ventaTotal=i[0]
+    return ventaTotal
+def ventaTienda(di1,me1,an1,di2,me2,an2):
+    fechaIni=str(di1)+"/"+str(me1)+"/"+str(an1)
+    fechaFin=str(di2)+"/"+str(me2)+"/"+str(an2)
+    sql="SELECT tienda,SUM(total) as TotalVenta,tienda FROM ventas WHERE (FECHA>\""+fechaIni+"\") AND (FECHA<\""+fechaFin+"\") GROUP BY tienda"  
+    con=conecta()
+    cursor=con.cursor()
+    cursor.execute(sql)
+    ventaTienda={}
+    for i in cursor:
+        ventaTienda[i[0]]=i[1]
+    return ventaTienda
 if __name__=='__main__':
+    
      creaBaseVentas()
      creaBaseTotales()            
      insertaBaseVentas(1,10,21,"TIENDA 01",1500,150.2,123.23)

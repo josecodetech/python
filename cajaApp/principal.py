@@ -15,7 +15,7 @@ class Ventana():
         #pass
 		#creacion ventana              
         ANCHO=360
-        ALTO=240
+        ALTO=300
         global colorFondo
         global colorLetra
         self.tituloVentana="Cajas"
@@ -75,8 +75,38 @@ class Ventana():
         
         botonGuardar=Button(self.ventana,text="Guardar",command=self.guardar,bg=self.colorFondo,fg=self.colorLetra).place(x=110,y=165)
         botonBorrar=Button(self.ventana,text="Borrar",command=self.borrar,bg=self.colorFondo,fg=self.colorLetra).place(x=180,y=165)
- 
-
+        #Informes
+        self.dia1=StringVar(value='00')
+        self.mes1=StringVar(value='00')
+        self.año1=StringVar(value='00')
+        etInforme=Label(self.ventana,text="Ventas entre fechas indicadas",bg=self.colorFondo,fg=self.colorLetra).place(x=20,y=190)
+        etFecha1=Label(self.ventana,text="Fecha inicial",bg=self.colorFondo,fg=self.colorLetra).place(x=20,y=220)
+        cjDia1=Entry(self.ventana,textvariable=self.dia1).place(x=100,y=220,width=20)
+        cjMes1=Entry(self.ventana,textvariable=self.mes1).place(x=130,y=220,width=20)
+        cjAño1=Entry(self.ventana,textvariable=self.año1).place(x=160,y=220,width=20)        
+        self.dia2=StringVar(value='00')
+        self.mes2=StringVar(value='00')
+        self.año2=StringVar(value='00')
+        etFecha1=Label(self.ventana,text="Fecha final",bg=self.colorFondo,fg=self.colorLetra).place(x=20,y=250)
+        cjDia1=Entry(self.ventana,textvariable=self.dia2).place(x=100,y=250,width=20)
+        cjMes1=Entry(self.ventana,textvariable=self.mes2).place(x=130,y=250,width=20)
+        cjAño1=Entry(self.ventana,textvariable=self.año2).place(x=160,y=250,width=20)       
+        botonMostrar=Button(self.ventana,text="Mostrar",command=self.mostrar,bg=self.colorFondo,fg=self.colorLetra).place(x=200,y=230)
+    def mostrar(self):
+        self.di1=self.dia1.get()
+        self.me1=self.mes1.get()
+        self.an1=self.año1.get()
+        self.di2=self.dia2.get()
+        self.me2=self.mes2.get()
+        self.an2=self.año2.get()
+        #obtenemos venta total
+        Total=ventaTotal(self.di1,self.me1,self.an1,self.di2,self.me2,self.an2)
+        #venta por tienda
+        Tiendas=ventaTienda(self.di1,self.me1,self.an1,self.di2,self.me2,self.an2)
+        textoMensaje="La venta total es de "+str(Total)+"\n"
+        textoMensaje=textoMensaje+"Tienda 01\tTienda 02\n"
+        textoMensaje=textoMensaje+str(Tiendas['TIENDA 01'])+"\t\t"+str(Tiendas['TIENDA 02'])
+        messagebox.showinfo("Ventas",textoMensaje)
     def guardar(self):
         print('guardado')
         #total venta y desglose iva
@@ -148,7 +178,12 @@ class Ventana():
         self.año.set(añoAct)
         self.mes.set(mesAct)
         self.dia.set(str(diaAct))
-        
+        self.año1.set(añoAct)
+        self.mes1.set(mesAct)
+        self.dia1.set(str("01"))
+        self.año2.set(añoAct)
+        self.mes2.set(mesAct)
+        self.dia2.set(str(diaAct))        
 if __name__=='__main__':
     #pruebas
     #print('probando')

@@ -14,9 +14,10 @@ filtro=datos[['Year','Sport','Medal']]
 #print(filtro)
 print(datos.describe())
 
-#print(datos)
+print(datos)
+
 #print(datos.index)
-#print(datos.columns)
+print(datos.columns)
 #print(datos.head(10))
 #print(datos.tail(10))
 #print(datos.describe())
