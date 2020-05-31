@@ -1,0 +1,10 @@
+# and or not
+print('Cumpliendo las dos condiciones, and')
+print(1==0 and 1!=2)
+print(2<3 and 7>5)
+print('Cumpliendo una de las condiciones, or')
+print(1<5 or 4>5)
+print(2<1 or 4<2)
+print('Negamos la sentencia, nos da lo contrario, not')
+print(not 1==4 or 2<5)
+print(not 2>1 and 3<2)
