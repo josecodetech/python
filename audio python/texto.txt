@@ -1,0 +1,4 @@
+Hola, estoy leyendo desde un fichero de texto.
+¿Has visto lo que puedes llegar a hacer programando con Python?.
+Suscribete a mi canal para estar al tanto de las novedades, no olvides compartir y darle like.
+Mas en https://www.youtube.com/channel/UCXk7hdEZ7JxauhESxwKJadw
