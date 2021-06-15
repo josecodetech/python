@@ -21,7 +21,7 @@ def operacion(operador, num1, num2):
     if operador == "suma":
         resultado = num1 + num2
     elif operador == "resta":
-        resultado = num1 + num2
+        resultado = num1 - num2
     elif operador == "multiplica":
         resultado = num1 * num2
     elif operador == "divide":
