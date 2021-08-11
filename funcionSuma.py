@@ -1,9 +1,11 @@
-#FUNCION SUMA
-def suma(numero1,numero2):
-    total=numero1+numero2
-    print("La suma es : ",total)
-    
-#PEDIMOS NUMERO AL USUARIO
-numero1=int(input("Dime el primer numero: "))
-numero2=int(input("Dime el segundo numero: "))
-suma(numero1,numero2)
+def suma(num1, num2):
+    resultado = num1 + num2
+    return resultado
+
+
+num1 = int(input("Dime el primer numero "))
+num2 = int(input("Dime el segundo numero "))
+# llamada a la funcion
+resultado = suma(num1, num2)
+# mostramos resultado
+print(f"La suma es igual a {resultado}")
