@@ -1,5 +1,13 @@
 class Vehiculo:
+    """
+    Documentacion de mi clase
+    Esto es mi documentacion
+    """
+
     def __init__(self, color, velocidadMaxima, marca):
+        '''
+        Documentacion del constructor
+        '''
         self.color = color
         self.velocidadMaxima = velocidadMaxima
         self.velocidad = 0
