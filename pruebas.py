@@ -1,24 +1,12 @@
-def calcular(num1, num2, operacion='sumar'):
-    def sumar(num1, num2):
-        return num1+num2
+import json
+from urllib import request
+url = 'https://my.api.mockaroo.com/pruebas.json?key=b7cebbb0'
 
-    def restar(num1, num2):
-        return num1-num2
-
-    def multiplicar(num1, num2):
-        return num1*num2
-
-    def dividir(num1, num2):
-        return num1/num2
-    if operacion == 'sumar':
-        print(f'{num1} + {num2} = {sumar(num1,num2)}')
-    elif operacion == 'restar':
-        print(f'{num1} - {num2} = {restar(num1,num2)}')
-    elif operacion == 'multiplicar':
-        print(f'{num1} * {num2} = {multiplicar(num1,num2)}')
-    elif operacion == 'dividir':
-        print(f'{num1} / {num2} = {dividir(num1,num2)}')
-
-
-calcular(7, 8, 'sumar')
-calcular(5, 4, 'multiplicar')
+respuesta = request.urlopen(url)
+print(respuesta)
+contenido = respuesta.read()
+print(contenido)
+json_obtenido = json.loads(contenido.decode('utf-8'))
+print(json_obtenido)
+for persona in json_obtenido:
+    print(persona)

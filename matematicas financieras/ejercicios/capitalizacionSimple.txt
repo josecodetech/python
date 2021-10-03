@@ -1,0 +1,25 @@
+Ejemplo: Calcular el capital final que obtendremos al invertir 4500 um al 12% anual, durante 6 meses.
+
+    I = 4500 * (12/100) * (6/12) = 270 um
+
+    otra forma seria con el interes equivalente:
+
+    I = 4500 * ((12/2)/100) * 1 = 270 um
+
+    obteniendo el mismo resultado
+
+    Cf = 4500 + 270 = 4770 um 
+
+Ejercicio 1: Si recibimos 500 um dentro de 3 meses y 700 um dentro de 6 meses, ambas con un tipo del 12% anual, calcula cuanto tendremos dentro de 1 año.
+
+    I1 = 500 * ((12/4) / 100) * 3 =  45
+    C1 = 545
+
+    I2 = 700 * ((12/2) / 100) * 1 = 42
+    C2 = 742
+    C1 + C2 = 1287 um
+
+Ejercicio 2: ¿Que prefieres, recibir 600 um dentro de 6 meses o 650 um dentro de 1 año, si se puede invertir al 9% anual?
+
+    C1 = C1 + I = 600 + 600*((12/2)/100)*1 = 636
+    C2 = 650

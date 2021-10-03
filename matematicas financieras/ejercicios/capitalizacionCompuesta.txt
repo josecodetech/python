@@ -1,0 +1,21 @@
+Ejercicio 1. Calcular el interes de un capital de 6000 um invertidos durante 1 año y tambien durante 2 años y medio al 18%, usando capitalizacion simple y compuesta, para ver las diferencias.
+
+    En Simple:
+    C1 = 6000 + (6000 * 18/100) = 7080
+    C2 = 6000 + (6000 * 18/100) * 2.5 = 8700
+
+
+    En Compuesta:
+    C1 = 6000 + ((6000 * ((1+(18/100))^1)-1) = 7080
+    C2 = 6000 + ((6000 * ((1+(18/100))^2.5)-1) = 9075.20
+
+Ejercicio 2. Calcular el interes equivalente mensual y trimestral del 17% anual.
+
+    i12 = 1.3 %
+    i4 =  4 %
+
+Ejercicio 3. ¿Que interes seria mayor, los de un capital de 3000 um durante 6 meses al 15% anual en capitalizacion simple, o los de un capital de 2500 um invertidos durante 18 meses al 14% en capitalizacion compuesta? 
+
+    I1 = 210 um
+
+    I2 =  542.97 um
