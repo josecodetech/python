@@ -1,0 +1,17 @@
+Ejemplo. Calcular los intereses de descuento y el capital final, por anticipar un capital de 7000 um,
+durante 6 meses a un tipo de interes del 15%.
+
+	D = 7000 * (1 - (1.15)^-0.5) = 472.46634231780354 um
+	Cf = Co - D = 7000 - 472.47 = 6527.5336576821965 um
+
+Realizar prueba con el ejemplo anterior, de la inversa con capitalizacion.
+
+	Cf = Co * (1+i)^n
+	interes = 17.647058823529413%
+	Cf = 7080.10 um 
+
+Ejercicio 1. Calcular importe de descontar un capital de 1500 um a un tipo de descuento del
+13% por un plazo de 4 meses.
+	
+	Descuento = 59.88 um
+	Efectivo = 1440.12 um

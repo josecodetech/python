@@ -1,0 +1,21 @@
+Ejemplo: Calcular los intereses de descuento por anticipar un capital de 62000 um durante 7 meses, a un tipo de interes del 14%.
+
+    D = (62000  * 0.012 * 7) / (1 + 0.012 *  7) = 4693.41 um
+
+    Cf = 62000 - 4661.48 =  57306.59 um
+
+En este descuento se cumple la ley de equivalencia con la capitalizacion simple, si hacemos la prueba con el ejemplo anterior veremos que se cumple, utilizaremos los resultados para realizar la capitalizacion simple y debemos obtener el capital de 62000 um.
+
+    Cf = Co  * (1 + (i * t)) = 57306.59 * (1 + (0.012 * 7)) = 62120.34 um (proximo por redondeos)
+
+Ejercicio 1. Calcular el descuento por anticipar un capital de 3500 um por 3 meses al 12%, aplicando el descuento comercial y racional.
+
+    D comercial = 105 um
+    D racional = 101.94 um
+
+Ejercicio 2. Se descuentan 2400 um por un plazo de 8 meses a un tipo del 10% (racional), calcular que tipo habria que aplicar en descuento comercial para obtener el mismo resultado.
+
+    D racional = 149.44 um
+    D comercial = 149.44 = 2400 * (d/12/100) * 8 => d = 9.34%	
+
+

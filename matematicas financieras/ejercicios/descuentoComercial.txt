@@ -1,0 +1,16 @@
+Ejemplo: Calcular los intereses de descuento de un capital de 2500 um al 15% durante 4 meses.
+
+    interesEquivalente = 15 / 12 =  1.25 % mensual
+    D = 2500 * (1.25/100) * 4 =  125
+
+Ejercicio 1. Calcular el capital final y el descuento por anticipar un capital de 4500 um por 6 meses a un tipo de descuento del 9%.
+
+    interesEquivalente = 9 / 12 = 0.75 % mensual
+    D = 4500 * (0.75/100) * 6 = 202.50 um
+    Cf = 4500 - 202.50 = 4297.50 um
+    
+
+Ejercicio 2. ¿Que importe sera mayor, descontar 6000 um por 4 meses al 11% o 6500 por 8 meses al 13%? 
+
+    Cf1 = 6000 - (6000 *  (0.91 / 100) * 4 = 5779.20 um
+    Cf2 = 6500 - (6500 *  (1.08 / 100) * 8 = 5938.40 um <- es el mayor
