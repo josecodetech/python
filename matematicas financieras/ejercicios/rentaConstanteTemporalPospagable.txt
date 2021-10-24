@@ -1,0 +1,14 @@
+Ejemplo: Calcular el valor actual de una renta anual de 1 um 
+durante 5 años con un tipo de interes del 14%.
+
+	Ao = (1-(1+0.14)^-5)/0.14 = 3.43 um
+
+Ejemplo: Igual pero, obtendremos el valor final.
+
+	Af = (((1+0.14)^5)-1)/0.14 = 6.61 um
+
+Ejemplo: Calcular el valor actual y final de una renta anual pospagable de 1200 um durante 4 años,
+con un tipo de interes del 11%.
+
+	Vo = 1200 * ((1-(1+0.11)^-4)/0.11 = 3722.93 um
+	Vf = 1200 * (((1+0.11)^4)-1)/0.11 = 5651.68 um
