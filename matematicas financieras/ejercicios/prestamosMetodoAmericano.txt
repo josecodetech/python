@@ -1,0 +1,6 @@
+Ejemplo: Calcular el cuadro de amortizacion de un prestamo de 6000 um segun metodo americano, con un interes
+del 17% y un plazo de 6 años.
+
+	Interes = 1020 um
+	Ultima cuota = 6000 + 1020 = 7020 um
+

@@ -1,0 +1,36 @@
+import pandas as pd
+
+
+def dameInteresEquivalente(interes, tiempo):
+    interes = interes / 100
+    interesEquivalente = ((1+interes)**(1/tiempo))-1
+    return round(interesEquivalente*100, 2)
+
+
+def dameInteresPagado(capitalPte, interes):
+    return (capitalPte*(interes/100))
+
+
+def prestamoAmericano(capital, interes, tiempo):
+
+    capitalPte = capital
+    lista = []
+    columnas = ['Periodo', 'Capital amortizado',
+                'Interes pagado', 'Capital pendiente']
+    for i in range(1, tiempo+1):
+        interesPagado = dameInteresPagado(capitalPte, interes)
+        if i == tiempo:
+            capitalAmortizado = capital
+        else:
+            capitalAmortizado = 0
+        capitalPte = capitalPte - capitalAmortizado
+        lista.append([i, round(
+            capitalAmortizado, 2), round(interesPagado, 2), round(capitalPte, 2)])
+    prestamo = pd.DataFrame(lista, columns=columnas)
+    prestamo.set_index('Periodo', inplace=True)
+    return prestamo
+
+
+if __name__ == '__main__':
+    cuadro = prestamoAmericano(6000, 17, 6)
+    print(cuadro)

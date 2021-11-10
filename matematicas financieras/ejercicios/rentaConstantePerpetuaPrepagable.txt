@@ -1,0 +1,9 @@
+Ejemplo. Renta perpetua anual prepagable de 1 um con un tipo de interes anual del 12%.
+
+	APo = (1 + 0.12) / 0.12 = 9.33 um
+
+Ejemplo. Calcular el valor actual de una renta perpetua anual prepagable de 900 um, con un tipo de interes anual del 9%.
+
+	VPo = 900 * (1 + 0.09) / 0.09 = 10900 um
+
+

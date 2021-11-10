@@ -1,0 +1,14 @@
+
+Ejemplo: Calcular el valor actual de una renta perpetua pospagable de 1 um, con un interes anual del 21%.
+
+	APo = 1 / 0.21 = 4.76 um 
+
+
+Ejemplo: Calcular el valor actual de una renta perpetua semestral pospagable de 1400 um, con un interes anual del 15%. 
+
+Pasamos el interes a semestral : 1 + i = (1 + i2) ^ 2 
+	
+	1 + 0.15 = (1 + i2) ^ 2 => i2 = 0.0723 = 7.23%
+	VPo = 1400 / 0.0723 = 19363.76 um
+
+

@@ -1,0 +1,26 @@
+Ejemplo: Calcular la cuota de amortizacion de un prestamo de 1500 um a 10 años con un tipo de interes del 12%.
+
+Ao = (1 - (1 + 0.12) ^ -10) / 0.12 = 5.65 um
+
+Ms = 1500 / 5.65 = 265.47 um
+
+Para calcular la parte de amortizacion que le corresponde, obtenemos el interes del primer periodo.
+
+I1 = Co * i  * t = 1500 * 0.12 * 1 = 180 um
+
+Y despejamos AMs.
+
+AMs = Ms - Is = 265.47 - 180 = 85.47 um
+
+El resto de amortizaciones se obtiene a partir de la anterior:
+
+AMk = AM1 * (1 + i) ^ k-1 
+
+AM2 = 85.47 * (1+0.12)^1 = 95.72 um
+
+Los intereses dentro de cada cuota se pueden obtener despejando Is:
+
+Is = Ms - AMs
+
+I2 = 265.47 - 95.72 = 169.75 um
+

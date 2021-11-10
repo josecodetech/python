@@ -1,0 +1,22 @@
+Ejemplo: Calcular el valor actual de una renta anual de 1 um durante 6 años con un tipo de interes del 18% anual.
+
+    Äo = (1+0.18)*((1-(1+0.18)^-6)/0.18)= 4,127 um
+
+
+Ejemplo: Calcular el valor final de la renta del ejemplo anterior.
+
+    Ä = (1+0.18) * (((1+0.18) ^ 6 - 1) / 0.18) =  11.14 um
+
+
+Ejemplo: Calcular el valor actual y final de una renta semestral prepagable de 1200 um durante 6 años a un tipo de interes del 12% anual.
+
+    debemos pasar el interes a semestral, el periodo tambien lo pasamos a semestral, siendo t = 6 años * 2 semestres = 12 semestres
+
+    interes semestral i2 => 1 + 0.12 = (1+i2)^2 
+
+    i2 = 5.83%
+
+    Vo = 1200*(1+0.0583)*((1-(1+0.0583)^-12)/0.0583) = 10747.08 um
+
+    Vf = 1200*(1+0.0583)*(((1+0.0583)^12 - 1) / 0.0583) = 21212.70 um
+
