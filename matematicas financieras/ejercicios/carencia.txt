@@ -1,0 +1,21 @@
+Ejemplo. Un banco concede un prestamo de 60000 um, a un plazo de 4 años, 
+con pagos semestrales y tipo de interes del 7%, concediendo 1 año de 
+carencia pagando solo intereses. Calcular cuotas en periodo de carencia 
+y despues de este con cuotas constantes.
+
+ 1 + 0.07 = (1 + i2) ^ 2
+ i2 = 3.44 %
+ Ms = Co * i * t
+ Ms = 60000 * 0.0344 * 1 = 2064 um pagara 2 cuotas de este tipo, interes, en el primer año
+ Co = Ms * Ao
+ quedarian 3 años por 2 pagos cada año = 6 periodos
+ Ms = Co / Ao = 60000 / ((1-(1+0.0344)^-6)/0.0344 = 60000 / 5.34 = 11237.91 um
+
+Tomando el ejemplo anterior, modificando a carencia total durante el primer año.
+
+Capitalizamos para ver al final del periodo de carencia cuanto sera el importe del principal.
+
+Cd = 60000 * (1+0.0344) ^ 2 = 64199 um cantidad a la que asciende el prestamo al terminar la carencia
+Ms = 64199 / 5.34 = 12022.28 um pagaria despues del periodo de carencia
+
+

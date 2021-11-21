@@ -1,0 +1,12 @@
+Ejemplo. Un banco nos ofrece contratar un deposito a 12 meses
+a un tipo de interes del 8%, con liquidacion de intereses
+a los 12 meses. Otro banco nos ofrece un deposito parecido, 
+con la diferencia de liquidacion mensual de intereses. 
+
+
+	Dep 1 = TAE = ((1 + (0.08 / 1))^1) - 1 = 0.08 = 8%
+	Dep 2 = TAE = ((1 + (0.08 / 12)) ^ 12) -1 = 0.082 = 8.2%
+
+La segunda opcion es algo mejor, ya que los intereses mensuales sumados al capital, van generando intereses.
+
+

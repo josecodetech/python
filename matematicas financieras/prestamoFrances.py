@@ -38,3 +38,4 @@ def prestamoFrances(capital, interes, tiempo):
 if __name__ == '__main__':
     cuadro = prestamoFrances(1500, 12, 10)
     print(cuadro)
+    
