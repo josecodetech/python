@@ -1,7 +1,5 @@
 __pycache__/
-entornoVirtual/
-entornoVirtual2/
-miFuncion.egg-info/
 venv/
 .env
+miProyectoFlask/env
 
