@@ -1,30 +1,63 @@
-#LISTAS
-lista_compras=["pan","patatas","naranjas","kiwis"]
-print(lista_compras)
-print(type(lista_compras))
-#PEDIDO
-piezas_pan=5
-precio=0.40
-total=precio*piezas_pan
-pedido1=[piezas_pan,precio,total]
-pedido2=[2,0.4,0.80]
-pedido3=[3,0.3,0.90]
-pedidos=[pedido1,pedido2,pedido3]
-print(pedidos)
-#lista[inicio:fin:step]
-print(pedido1[1:2])
-#recorrer lista
-lista=[1,2,3,4,5,6,7,8,9]
-for elemento in lista:
-    print("el numero es ",elemento)
-#INSERTAR ELEMENTOS
-lista.append(45)
+lista = [1, 2.3, 'Jose', [7, 8], 12, 15, 15, 15, 12]
+print(type(lista))
 print(lista)
-lista.insert(1,99)
-print(lista)
-lista.pop()
-print(lista)
-lista.remove(1)
-print(lista)
-print(len(lista))
 
+print(lista[2])
+print(lista[3][1])
+print(lista[1:4])
+print(lista[2:4:2])
+
+for elemento in lista:
+    print(elemento)
+
+lista.append(10)
+lista.append('Lucia')
+lista.append([2, 3, 6, 8, 9])
+print(lista)
+lista.extend([4, 5, 2, 4])
+print(lista)
+lista.remove('Jose')
+print(lista)
+print(lista.index('Lucia'))
+print(lista.count(15))
+print(lista)
+lista.reverse()
+print(lista)
+# mas ejemplos
+listaCompra = ['pan', 'patatas', 'naranjas', 'kiwis']
+print(listaCompra)
+print(type(listaCompra))
+# crear una lista desde variables
+cantidadPan = 5
+precioPan = 0.40
+total = cantidadPan * precioPan
+pedido01 = [cantidadPan, precioPan, total]
+pedido02 = [3, 0.60, 3*0.60]
+pedido03 = [4, 0.50, 4*0.50]
+pedidos = [pedido01, pedido02, pedido03]
+print(pedidos)
+# lista vacia
+listaVacia = []
+print(listaVacia)
+print(type(listaVacia))
+listaCompra.append("peras")
+listaCompra.insert(2, "platanos")
+print(listaCompra)
+listaCompra.pop()
+print(listaCompra)
+# longitud lista
+print(len(listaCompra))
+
+# ejemplo añadir con bucle for
+cuadrados = []
+for numero in range(1, 11):
+    cuadrados.append(numero*numero)
+print(cuadrados)
+print(min(cuadrados))
+print(max(cuadrados))
+print(sum(cuadrados))
+
+# esta en lista
+print(listaCompra)
+print("platanos" in listaCompra)
+print("cerezas" in listaCompra)

@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+.env
+miProyectoFlask/env
+__pycache__
+

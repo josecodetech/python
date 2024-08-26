@@ -1,0 +1,3 @@
+Cambiado desde fichero de texto para conteo de palabras
+Esto es un texto de ejemplo donde veremos cuantas veces aparece cada palabra dentro de este texto palabra palabra texto dentro donde veremos
+Mas texto en el fichero para comprobar palabras

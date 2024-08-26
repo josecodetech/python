@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='language' content='ES'>
+    <meta name='robots' content='index,follow'>
+    <meta name='author' content='Jose Ojeda Rojas, ticoticotaa@gmail.com'>
+    <link rel="stylesheet" href="./css/colores.css">
+    <link rel="stylesheet" href="./css/cookie.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 640px)">
+    <link rel="stylesheet" href="./css/escritorio.css" media="(min-width: 800px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="./js/cookie.js"></script>
+<script data-ad-client="ca-pub-1072177032537716" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76147054-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76147054-1');
+</script>    <meta name='keywords' content='programacion,python,javascript,scratch,appinventor,android,principal'>
+    <meta name='description' content=''>
+
+    <title>Ticoticotaa, pagina principal</title>
+
+
+</head>
+
+<body>
+
+    <main>
+        <header>
+
+            <h1>Bienvenido a mi Web</h1>
+
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="principal.php">Inicio</a></li>
+                <li><a href="noticias.php">Noticias</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="acercade.php">Acerca de</a></li>
+                <li><a href="privacidad.php">Privacidad</a></li>
+            </ul>        </nav>
+        <div id="contenedor">
+            <section id="arriba">
+                <a name="arriba"></a>
+                <article>
+                    <h2>Python</h2>
+                    <figure>
+                        <a href="python.php"><img src="./img/logoPython.jpg" alt="Python"></a>
+                    </figure>
+                    <p>Comienza a programar con uno de los lenguajes de programacion mas usado.</p>
+                </article>
+                <article>
+                    <h2>AppInventor</h2>
+                    <figure class="imagen">
+                        <a href="appinventor.php"><img src="./img/logoAppInventor.jpg" alt="AppInventor"></a>
+                    </figure>
+                    <p>Programa aplicaciones Android con AppInventor, de manera sencilla aprenderas a programar tus Apps</p>
+                </article>
+                <article>
+                    <h2>Scratch / Python</h2>
+                    <figure>
+                        <a href="scratchpython.php"><img src="./img/logoPythonScratch.jpg" alt="Python"></a>
+                    </figure>
+                    <p>Introduccion a la programacion con Python / Scratch.</p>
+                </article>
+                <article>
+                    <h2>Scratch</h2>
+                    <figure>
+                        <a href="scratch.php"><img src="./img/logoScratch.jpg" alt="Scratch"></a>
+                    </figure>
+                    <p>Para iniciarte en la programacion y enseñar a los mas pequeños, que mejor que Scratch</p>
+                </article>
+
+                <article>
+                    <h2>HTML</h2>
+                    <figure>
+                        <a href="html.php"><img src="./img/logoHTML.png" alt="HTML"></a>
+                    </figure>
+                    <p>Aprende a crear tu propia web.</p>
+                </article>
+                <article>
+                    <h2>CSS</h2>
+                    <figure>
+                        <a href="css.php"><img src="./img/logoCSS.png" alt="HTML"></a>
+                    </figure>
+                    <p>Aprende a crear tu propia web.</p>
+                </article>
+                <article>
+                    <h2>JavaScript</h2>
+                    <figure>
+                        <a href="javascript.php"><img src="./img/logoJavascript.png" alt="JavaScript"></a>
+                    </figure>
+                    <p>Comienza a programar para el frontend.</p>
+                </article>
+            </section>
+            <aside>
+                <div id="redes">
+                    <h3>Sigueme...</h3>
+                <a target=”_blank” href="https://www.facebook.com/josecodetech"><img src="./img/logoFacebook.png" alt="Facebook"></a>
+                <a target=”_blank” href="https://twitter.com/joseojedarojas"><img src="./img/logoTwitter.png" alt="Twitter"></a>
+                <a target=”_blank” href="https://www.instagram.com/josecodetech/"><img src="./img/logoInstagram.png" alt="Instagram"></a>
+                <a target=”_blank” href="https://www.youtube.com/c/JOSEOJEDAROJAS"><img src="./img/logoYoutube.png" alt="Youtube"></a>
+                <a target=”_blank” href="https://www.linkedin.com/in/jose-ojeda-rojas/"><img src="./img/logoLk.png" alt="LinkedIn"></a>                </div>
+                <div id="publicidad">
+                    <h3></h3>
+<div id="amazon">
+     <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=12&l=ur1&category=prime_video&banner=093TP09QSWSGKXVP9S82&f=ifr&linkID=78a4e1dc9d91f685ffa1c91302578e7a&t=ticoticotaa0e-21&tracking_id=ticoticotaa0e-21" width="300" height="250" scrolling="no" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+</div>
+<div id="amazon2">
+     <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=12&l=ur1&category=amu&banner=0CSGV38EY4AA5PEF2602&f=ifr&linkID=8463226d6230722e0ea112505545a655&t=ticoticotaa0e-21&tracking_id=ticoticotaa0e-21" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+</div>
+<div id="google">
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <!-- ticobanneradaptable -->
+     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1072177032537716" data-ad-slot="7701604175" data-ad-format="auto" data-full-width-responsive="true"></ins>
+     <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+</div>
+<br />
+<div id="gameEdu">
+     <a href="https://gamedu.online/course/programacion-con-python/?ref=7960958">
+          <div style="display: flex;flex-direction:column;width: 300px;height: 400px;border-radius: 3px;box-shadow: 3px 3px 6px #00000044;"> <span style="width: 100%; height: 50%; background-image: url(https://gamedu.online/wp-content/uploads/course_images/6996.png); background-position: center; background-size: cover;"> </span> <span style="text-align:center; width: 100%; height: 50%; background: #2f2f2f; padding:0 20px; box-sizing: border-box">
+                    <div style="fill:#fff; width: 25px; margin:15px auto 8px auto;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.46 488.46">
+                              <g id="Layer_2">
+                                   <g id="Layer_1-2">
+                                        <g id="computerScience">
+                                             <g>
+                                                  <path d="M309.89,66h-3.12a7.48,7.48,0,0,0,0,15h3.12a7.48,7.48,0,0,0,0-15Zm-53,0H78.55A10.6,10.6,0,0,0,68,76.63V409.91h0a10.6,10.6,0,0,0,10.59,10.6v-10.6h0v10.6h46.87a7.48,7.48,0,1,0,0-14.95H82.91V81h174a7.48,7.48,0,1,0,0-15ZM200.18,405.56H175.26a7.48,7.48,0,1,0,0,14.95h24.92a7.48,7.48,0,0,0,0-14.95Zm52.95,0H250a7.48,7.48,0,1,0,0,14.95h3.11a7.48,7.48,0,1,0,0-14.95Zm169.3,4.35h-10.6v10.6a10.61,10.61,0,0,0,10.6-10.6ZM384.64,66H359.72a7.48,7.48,0,0,0,0,15h18.73l29,29V405.56H303a7.48,7.48,0,1,0,0,14.95H411.83v-10.6h10.6V103.82h0l-1.62-1.62h0l-4.29-4.28h0l-6-6.06h0l-6.93-6.93h0L396.6,78h0l-4.48-4.48h0L384.64,66Z"></path>
+                                                  <path d="M411.83,66H384.64l37.79,37.79V76.63A10.61,10.61,0,0,0,411.83,66Z"></path>
+                                                  <g>
+                                                       <path d="M3.74,129.17H68V121.7H3.74a3.74,3.74,0,1,0,0,7.47Z"></path>
+                                                       <path d="M3.74,248H68v-7.48H3.74a3.74,3.74,0,1,0,0,7.48Z"></path>
+                                                       <path d="M129.17,66V3.74a3.74,3.74,0,1,0-7.47,0V66Z"></path>
+                                                       <path d="M3.74,307.37H68v-7.48H3.74a3.74,3.74,0,0,0,0,7.48Z"></path>
+                                                       <path d="M3.74,188.57H68v-7.48H3.74a3.74,3.74,0,1,0,0,7.48Z"></path>
+                                                       <path d="M366.77,66V3.74a3.74,3.74,0,0,0-7.48,0V66Z"></path>
+                                                       <path d="M422.43,129.17h62.3a3.74,3.74,0,0,0,0-7.47h-62.3Z"></path>
+                                                       <path d="M248,66V3.74a3.74,3.74,0,0,0-7.48,0V66Z"></path>
+                                                       <path d="M188.57,66V3.74a3.74,3.74,0,1,0-7.47,0V66Z"></path>
+                                                       <path d="M307.37,66V3.74a3.74,3.74,0,0,0-7.48,0V66Z"></path>
+                                                       <path d="M240.49,420.51v64.22a3.74,3.74,0,0,0,7.48,0V420.51Z"></path>
+                                                       <path d="M484.73,299.89h-62.3v7.48h62.3a3.74,3.74,0,0,0,0-7.48Z"></path>
+                                                       <path d="M484.73,240.49h-62.3V248h62.3a3.74,3.74,0,0,0,0-7.48Z"></path>
+                                                       <path d="M484.73,181.09h-62.3v7.48h62.3a3.74,3.74,0,0,0,0-7.48Z"></path>
+                                                       <path d="M68,359.29H3.74a3.74,3.74,0,0,0,0,7.48H68Z"></path>
+                                                       <path d="M484.73,359.29h-62.3v7.48h62.3a3.74,3.74,0,0,0,0-7.48Z"></path>
+                                                       <path d="M181.1,420.51v64.22a3.74,3.74,0,0,0,7.47,0V420.51Z"></path>
+                                                       <path d="M121.7,420.51v64.22a3.74,3.74,0,0,0,7.47,0V420.51Z"></path>
+                                                       <path d="M359.29,420.51v64.22a3.74,3.74,0,0,0,7.48,0V420.51Z"></path>
+                                                       <path d="M299.89,420.51v64.22a3.74,3.74,0,0,0,7.48,0V420.51Z"></path>
+                                                  </g>
+                                                  <path d="M359.5,121.7H334.58a7.48,7.48,0,0,0,0,15h17.24v31.88a7.48,7.48,0,0,0,14.95,0V129a7.27,7.27,0,0,0-7.27-7.26Zm-74.76,0h-3.11a7.48,7.48,0,1,0,0,15h3.11a7.48,7.48,0,1,0,0-15Zm-53,0H130.89a7.26,7.26,0,0,0-7.27,7.26v210h0l25.92,25.92h210v-7.27h7.27v-11.5a7.48,7.48,0,1,0-14.95,0v3.81H155.73l-17.16-17.16V136.65h93.22a7.48,7.48,0,1,0,0-15Zm135,235.88H359.5v7.27a7.28,7.28,0,0,0,7.27-7.27Zm-7.48-93.74a7.47,7.47,0,0,0-7.47,7.48v24.92a7.48,7.48,0,0,0,14.95,0V271.32a7.48,7.48,0,0,0-7.48-7.48Zm0-52.95a7.47,7.47,0,0,0-7.47,7.48v3.11a7.48,7.48,0,1,0,14.95,0v-3.11a7.48,7.48,0,0,0-7.48-7.48Z"></path>
+                                             </g>
+                                        </g>
+                                   </g>
+                              </g>
+                         </svg> </div>
+                    <h5 style="color:#fff; font-size: 16px; line-height: 1.2; margin-bottom:15px"> Programacion con Python</h5>
+                    <p style="color: #fff;font-size: 9px; margin-bottom: 10px;"> Comienza a programar con Python</p>
+                    <div style="background: linear-gradient(35deg, #4DEA95, #45F2F6);width: 100%; height: 40px; border-radius: 25px; display: flex;align-items: center;justify-content: center;"> <span style="font-size: 14px; font-weight: 600;">Aprende en GAMeDU</span> </div>
+               </span> </div>
+     </a>
+</div>
+<br />
+<div class="anuncioPlatzi">
+     <a href="https://platzi.com/c/jose-ojeda/"><img style="float:left;width:180px; height:181px;" src="/img/anuncioPlatzi.png" alt="imagenPlatzi"></a>
+</div>                </div>
+            </aside>
+        </div>
+        <footer>
+            <div id="copyright">
+<address>@JoseOjedaRojas2021</address>
+       
+</div>
+<br>
+<div id="licencia">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="creative" alt="Licencia de Creative Commons" style="border-width:0" 
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>
+</div>
+<br>
+<div id="publicidadPie">
+<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=48&l=ur1&category=amu&banner=1TZS9R47G46FMHT9FSR2&f=ifr&linkID=9c7e566e13aa65468083c2e0c2062c6b&t=ticoticotaa0e-21&tracking_id=ticoticotaa0e-21" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+
+    </div>
+
+    <br>
+<div id="cajacookies">
+<p><button onclick="aceptarCookies()"></i> Aceptar y cerrar éste mensaje</button>
+Éste sitio web usa cookies, si permanece aquí acepta su uso.
+Puede leer más sobre el uso de cookies en nuestra 
+<a href="privacidad.php">política de privacidad</a>.
+</p>
+<br>
+</div>
+
+            <a id="arriba" href="#arriba">Ir arriba</a>
+        </footer>
+    </main>
+</body>
+
+</html>

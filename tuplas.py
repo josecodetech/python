@@ -1,14 +1,29 @@
-#TUPLAS
-meses=("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto",
-       "Septiembre","Octubre","Noviembre","Diciembre")
-salir=False
-while(not salir):
-    numero=int(input("Dime el numero del mes: "))
-    if(numero==0):
-        salir=True
-    else:
-        if(numero>=1 and numero<=len(meses)):
-            print(meses[numero-1])
-        else:
-            print("Inserta un numero entre 1 y ", len(meses))
+colores = ("verde", "amarillo", "rojo", "azul")
+print(type(colores))
+print(colores)
+print(colores[:2])
+tupla = ()
+print(tupla)
+print(type(tupla))
 
+# print(colores[4]) #cuidado con indices inexistentes
+# colores[2] = "rosa" #cuidado asignacion de valores
+
+print(len(colores))
+tuplaUnitaria = (50,)
+print(type(tuplaUnitaria))
+print(len(tuplaUnitaria))
+
+# empaquetado de tuplas
+a = 10
+b = 'Jose'
+c = 22.34
+tupla = a, b, c
+print(tupla)
+print(type(tupla))
+
+# desenpaquetado de tuplas
+a, b, c = tupla
+print(a)
+print(b)
+print(c)

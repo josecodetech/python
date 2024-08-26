@@ -1,7 +1,10 @@
-edad=18
-if (edad>=18):
-	print('eres mayor de edad')
+edad=14
+if edad<5:
+	precio=0
+elif edad<15:
+	precio=5
+elif edad<65:
+	precio=20
 else:
-	print('eres menor de edad')
-#esto se imprime siempre
-print('fin')
+	precio=15
+print('Te cuesta '+str(precio))
